@@ -52,6 +52,7 @@ div.page {
     max-width: 100%;
 }
 
-.img_responsive {
-    height: auto;
+div.page img {
+    height: 100%;
+    width: 100%;
 }
