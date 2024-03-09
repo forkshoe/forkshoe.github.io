@@ -4,35 +4,50 @@
 <meta name="description" content="Production company specializing in cheap art cabarets, puppets, free theatrical shows, with an in house Brass Band.">
 <meta name="keywords" content="Theatre, theater, puppets, shows, cheap art, art, music">
 <meta name="author" content="Devin Doherty">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="stylesheet" href="../../static/style.css">
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-<link rel="icon" type="image/x-icon" href="images/forkshoe_favicon_v1.png">
-<title>{% block title %}Welcome{% endblock %}</title>
+<title>Testing</title>
 <body>
   <header>
     <!-- <h1><img src = "/images/forkshoelogo.png"></h1> -->
     <h1><a href ="/">Fork & Shoe Theatre Cooperative</a></h1>
     <nav>
       <ul class="nav navbar-nav">
-        <!-- <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+        <!-- <li><a href="../../">Welcome</a></li>
           ['/shows', 'Shows'],        
           ['/calendar', 'Calendar'],-->
-        {% for href, title in [
-          ['/events', 'Upcoming Events'],
-          ['/shows', 'Past Shows'],
-          ['/get-involved', 'Get Involved'],
-          ['/donate', 'Donate'],
-          ['/about', 'About'],
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
+        
+          <li><a href="../../events/">Upcoming Events</a></li>
+        
+          <li><a href="../../shows/">Past Shows</a></li>
+        
+          <li><a href="../../get-involved/">Get Involved</a></li>
+        
+          <li><a href="../../donate/">Donate</a></li>
+        
+          <li><a href="../../about/">About</a></li>
+        
       </ul>
     </nav>
   </header>
   <div class="page">
-    {% block body %}{% endblock %}
+    
+  
+  <div class="blog-post">
+  
+    <h2>Testing</h2>
+  
+  <p class="meta">
+    written by
+    
+      
+    
+    on 2023-12-19
+  </p>
+  
+  </div>
+
+
   </div>
   <footer>
     &copy; Copyright 2024 by Fork & Shoe Theatre Cooperative

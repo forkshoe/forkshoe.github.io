@@ -4,15 +4,17 @@ author: admin
 ---
 body:
 
-Jael Whitney’s *A Pain in the Molasses*, a new play about Boston's dark, syrupy tragedy. Performing February 2nd and 3rd at the Mosesian Center for the Arts.
+Jael Whitney’s *A Pain in the Molasses*, a new play about Boston's dark, syrupy tragedy. Performing March 22nd at 8PM and March 23rd at Noon and 8PM at the Mosesian Center for the Arts.
 
-<center><img src = "https://upload.wikimedia.org/wikipedia/commons/0/0a/Boston_post-January_16%2C_1919%2C.jpg" width = 300height = 300></center>
+<center><img src = "https://upload.wikimedia.org/wikipedia/commons/0/0a/Boston_post-January_16%2C_1919%2C.jpg" class ="responsive"></center>
 
 
  
 ---
 pub_date: 2023-12-21
 ---
-event_date: 2024-02-02
+event_date: 2024-03-22
 ---
-event_time: 3 PM
+event_time: 8 PM
+---
+event_location: 321 Arsenal Street, Watertown, MA 02472
