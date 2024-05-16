@@ -1,2 +1,5 @@
 [project]
 name = Lektest
+
+[servers.ghpages]
+target = ghpages://forkshoe/forkshoe.github.io

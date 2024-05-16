@@ -4,35 +4,52 @@
 <meta name="description" content="Production company specializing in cheap art cabarets, puppets, free theatrical shows, with an in house Brass Band.">
 <meta name="keywords" content="Theatre, theater, puppets, shows, cheap art, art, music">
 <meta name="author" content="Devin Doherty">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="stylesheet" href="../../static/style.css">
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <link rel="icon" type="image/x-icon" href="images/forkshoe_favicon_v1.png">
-<title>{% block title %}Welcome{% endblock %}</title>
+<title>GDBB at Watertown Porch Fest!</title>
 <body>
   <header>
     <!-- <h1><img src = "/images/forkshoelogo.png"></h1> -->
     <h1><a href ="/">Fork & Shoe Theatre Cooperative</a></h1>
     <nav>
       <ul class="nav navbar-nav">
-        <!-- <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+        <!-- <li><a href="../../">Welcome</a></li>
           ['/shows', 'Shows'],        
           ['/calendar', 'Calendar'],-->
-        {% for href, title in [
-          ['/events', 'Current Projects'],
-          ['/shows', 'Past Projects'],
-          ['/get-involved', 'Get Involved'],
-          ['/donate', 'Donate'],
-          ['/about', 'About'],
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
+        
+          <li class="active"><a href="../">Current Projects</a></li>
+        
+          <li><a href="../../shows/">Past Projects</a></li>
+        
+          <li><a href="../../get-involved/">Get Involved</a></li>
+        
+          <li><a href="../../donate/">Donate</a></li>
+        
+          <li><a href="../../about/">About</a></li>
+        
       </ul>
     </nav>
   </header>
   <div class="page">
-    {% block body %}{% endblock %}
+    
+  
+  <div class="event-post">
+  
+    <h2>GDBB at Watertown Porch Fest!</h2>
+  
+  <p class="meta">
+    <!-- written by
+    
+      
+     -->
+  
+  </p>
+  <p>The Gosh Darn Brass Band will be playing in the <a href="https://watertownporchfest.org/" target="_blank"> Watertown Porch Fest </a> this weekend! Come check out all the jazz, funk, and puppets you can imagine at the Mosesian Center for the Arts, 12p - 1p!</p>
+
+  </div>
+
+
   </div>
   <footer>
     &copy; Copyright 2024 by Fork & Shoe Theatre Cooperative
