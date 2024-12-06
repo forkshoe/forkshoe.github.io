@@ -7,3 +7,14 @@ Fork & Shoe is a performance production company that focuses on interactive, acc
 
 ### The Goddamn Brass Band
 The Goddamn Brass Band is a Boston area contemporary ensemble that provides musical accompaniment for many of Fork & Shoe's outings.
+
+<meta name="Fork & Shoe Logo">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="f-s-logo.png" alt="Fork & Shoe Logo" style="width:42%;" class="center">
+
